@@ -33,8 +33,7 @@ int main()
 
 	if (!fs::exists(path))
 		cout << "Ошибка, директория не найдена, проверьте существует ли директория и попробуйте снова";
-
-	SearchDetails* details = NULL;
+		
 	int counter = 0;
 	for (fs::directory_entry file:fs::directory_iterator(path))
 	{

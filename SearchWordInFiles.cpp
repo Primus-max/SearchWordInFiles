@@ -2,6 +2,13 @@
 #include <windows.h>
 using namespace std;
 
+struct SearchDetails
+{
+	int line = 0;
+	int repetitions = 0;
+	char fileName[20];
+};
+
 int main()
 {
 	SetConsoleCP(1251);
